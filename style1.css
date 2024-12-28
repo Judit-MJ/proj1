@@ -1,0 +1,143 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f8f6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1000x600') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.hero-content .title {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.intro h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.intro blockquote {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Navigation */
+.nav {
+    background: #333;
+    color: #fff;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    background: #f9f8f6;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Social Section */
+.social {
+    background: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.social h2 {
+    margin-bottom: 20px;
+}
+
+.social-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+/* Fact Section */
+.fact {
+    background: #f9f8f6;
+    padding: 40px 20px;
+}
+
+.fact-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fact-content img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.fact-content h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
